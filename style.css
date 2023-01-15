@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+html{
+    scroll-behavior: smooth;
+    font-size:10px;
+    font-Family:Montserrat,sans-serif;
+}
+.navbar ul{
+    list-style: none;
+    background:rgba(0,0,0,.5);
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color:brown;
+    width: 150px;
+    display: block;
+    padding:25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+}
+.navbar a:hover{
+    background-color:orange;
+}
+/* .class
+{
+    display:flex;
+    flex-direction:coloumn;
+    background-color: rgba(0,0,0,.5);
+    height840px
+} */
+.main{
+    margin:8% 00 8%;
+    height: 100vh;
+}
+.main h1{
+    padding:30px;
+font-size: 50px;
+}
+.main p{
+    color:white;
+    line-height: 22px;
+    font-size: 15px;
+    padding-left: 30px;
+}
+.prodiv{
+    margin: 8% 00 8%;
+    height:100vh;
+}
+.prodiv h1{
+    padding-top:40px;
+    padding:30px;
+    font-size: 50px;
+}
+.prodiv ul li{
+    margin-left: 5rem;
+    font-size:15px ;
+    color:white;
+    padding-left:30px ;
+    line-height: 22px;
+}
+.quadiv{
+    margin: 8% 00 8%;
+    height: 100vh;
+}
+.quadiv h1{
+    padding-top:40px;
+    padding:30px;
+    font-size: 50px;
+}
+.quadiv ul li{
+    margin-left: 5rem;
+    font-size:15px ;
+    color:white;
+    padding-left:30px ;
+    line-height: 22px;
+}
+/* .condiv{
+    width:350px;
+    top:50%;
+    left:50%;
+    transform:translate(-50px,-50px);
+    position: relative;
+    color:black;
+}
+.condiv h1{
+padding-top: 60px;
+ font-size: 50px;
+ text-align: center;
+ margin:40px,o;
+} */
+.condiv{
+    height: 100vh;
+}
+.condiv h1{
+    padding-top:40px;
+    padding: 30px;
+    font-size: 50px;
+}
+.condiv p{
+    font-size:20px;
+    color: white;
+}
+.condiv form{
+    margin-left:5rem;
+}
+.condiv input{
+font-size: 10px;
+width:75px;
+padding:15px 10px;
+border: 0;
+outline: none;
+border-radius: 50px;
+}
+.condiv button{
+    fontsize:18px;
+    font-weight:bold;
+    margin: 20px 0;
+    padding:10px 15px;
+    width:150px;
+}
+.scroll-up{
+   height:60px;
+   width:60px; 
+   background-color: white;
+   position:fixed;
+   bottom:10px;
+   right: 10px;
+   cursor: pointer;
+   border-radius: 6px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transform: scale(0.9);
+}
+.scroll-up svg{
+    width:50%;
+    color:black;
+    pointer-events: none;
+}
+.scroll-up:hover{
+    transform: scale(1);
+}
